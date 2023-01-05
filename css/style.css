@@ -169,7 +169,16 @@ body {
 /* --------HERO SECTION------ * */
 
 .hero {
+  background-image: linear-gradient(
+      rgba (46, 47, 66, 0.7),
+      rgba (46, 47, 66, 0.7)
+    ),
+    url(../images/people_office.jpg);
+
+  background-position: center;
+  background-size: cover;
   background-color: var(--backround-section-dark);
+
   padding: 188px 0px;
   text-align: center;
 }
