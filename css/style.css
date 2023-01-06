@@ -174,9 +174,11 @@ body {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people_office.jpg);
-
+  width: 1440px;
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
+
   background-color: var(--backround-section-dark);
 
   padding: 188px 0px;
