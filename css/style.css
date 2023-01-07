@@ -398,8 +398,7 @@ body {
   border: 1px solid var(--icon-acc-color);
   fill: var(--icon-acc-color);
 }
-.customers-icon:hover {
-}
+
 .customers-icon {
   fill: currentColor;
 }
