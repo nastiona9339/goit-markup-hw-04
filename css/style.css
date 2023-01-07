@@ -206,7 +206,6 @@ body {
   background-color: var(--bt-bg-color);
   line-height: 1.18;
   padding: 16px 32px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 
@@ -214,6 +213,7 @@ body {
 .button-hero:focus,
 .button-hero:active {
   background-color: var(--bt-acc-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 /* --------Advantages section------ */
@@ -391,13 +391,14 @@ body {
   border-radius: 4px;
 
   color: #8e8f99;
+  fill: #8e8f99;
 }
 
 .customers-link:hover {
-  border-color: 1px solid var(--icon-acc-color);
+  border: 1px solid var(--icon-acc-color);
+  fill: var(--icon-acc-color);
 }
 .customers-icon:hover {
-  fill: var(--icon-acc-color);
 }
 .customers-icon {
   fill: currentColor;
