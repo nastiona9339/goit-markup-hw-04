@@ -179,7 +179,8 @@ body {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people_office.jpg);
-  width: 1600px;
+  max-width: 1600px;
+  margin: 0 auto;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
