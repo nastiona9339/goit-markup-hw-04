@@ -330,7 +330,8 @@ body {
   fill: currentColor;
 }
 
-.team-soc-link:hover {
+.team-soc-link:hover,
+.team-soc-link:focus {
   background-color: var(--icon-acc-color);
 }
 
@@ -392,11 +393,11 @@ body {
   border: 1px solid #8e8f99;
   border-radius: 4px;
 
-  color: #8e8f99;
   fill: #8e8f99;
 }
 
-.customers-link:hover {
+.customers-link:hover,
+.customers-link:focus {
   border: 1px solid var(--icon-acc-color);
   fill: var(--icon-acc-color);
 }
@@ -548,6 +549,7 @@ body {
 .footer-soc-icon {
   fill: currentColor;
 }
-.footer-soc-link:hover {
+.footer-soc-link:hover,
+.footer-soc-link:focus {
   background-color: #31d0aa;
 }
