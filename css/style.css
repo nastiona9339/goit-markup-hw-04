@@ -376,9 +376,11 @@ body {
   width: 168px;
   height: 88px;
 }
+
 .customers-items:not(:last-child) {
   margin-right: 24px;
 }
+
 .customers-link {
   display: flex;
   justify-content: center;
